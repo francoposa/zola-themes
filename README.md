@@ -22,3 +22,6 @@ To Do:
 Not Planned:
 * CSS of any kind
 * Search
+
+---
+Created by Franco Posa (franco @ [francoposa.io](https://francoposa.io))

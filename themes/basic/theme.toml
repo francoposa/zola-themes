@@ -22,7 +22,7 @@ Not Planned:
 # An optional tags to allow quick search
 tags = ["minimal", "starter", "template"]
 license = "MIT"
-homepage = ""
+homepage = "https://github.com/francoposa/zola-themes"
 # The minimum version of Zola required
 min_version = "0.4.0"
 # An optional live demo URL
@@ -37,7 +37,7 @@ demo = ""
 # The theme author info: you!
 [author]
 name = "Franco Posa"
-homepage = "francoposa.io"
+homepage = "https://francoposa.io"
 
 # If this is porting a theme from another static site engine, provide
 # the info of the original author here
