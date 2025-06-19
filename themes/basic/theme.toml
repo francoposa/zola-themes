@@ -1,0 +1,47 @@
+name = "zola-basic-theme-starter-template"
+description = """
+A minimal Zola theme to serve as a starter or template.
+
+Focused on idiomatic usage of core Zola features and Tera template primitives,
+this theme utilizes only the standard Zola templates:
+index.html, section.html, page.html, taxonomy_list.html, and taxonomy_single.html.
+
+Currently supports:
+* Content sections and pages with arbitrary nesting
+* Taxonomy list and single-term pages
+
+To Do:
+* Menu and breadcrumb navigation
+* Pagination support
+* 404 page
+
+Not Planned:
+* CSS of any kind
+* Search
+"""
+# An optional tags to allow quick search
+tags = ["minimal", "starter", "template"]
+license = "MIT"
+homepage = ""
+# The minimum version of Zola required
+min_version = "0.4.0"
+# An optional live demo URL
+demo = ""
+
+# Any variable there can be overridden in the end user `config.toml`
+# You don't need to prefix variables by the theme name but as this will
+# be merged with user data, some kind of prefix or nesting is preferable
+# Use snake_casing to be consistent with the rest of Zola
+[extra]
+
+# The theme author info: you!
+[author]
+name = "Franco Posa"
+homepage = "francoposa.io"
+
+# If this is porting a theme from another static site engine, provide
+# the info of the original author here
+#[original]
+#author =  "mdo"
+#homepage = "https://markdotto.com/"
+#repo = "https://www.github.com/mdo/hyde"

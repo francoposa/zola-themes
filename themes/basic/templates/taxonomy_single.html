@@ -1,0 +1,8 @@
+{% block content %}
+<h1 class="term-name">{{ term.name }}</h1>
+<div>
+    {% for page in term.pages %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+    {% endfor %}
+</div>
+{% endblock content %}
