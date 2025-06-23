@@ -10,9 +10,10 @@ Focused on idiomatic usage of core Zola features and Tera template primitives,
 this theme utilizes only the standard Zola templates:
 index.html, section.html, page.html, taxonomy_list.html, and taxonomy_single.html.
 
-Currently supports:
+Currently supports or demonstrates:
 * Content sections and pages with arbitrary nesting
 * Taxonomy list and single-term pages
+* Static CSS stylesheet
 
 To Do:
 * Menu and breadcrumb navigation
@@ -20,7 +21,7 @@ To Do:
 * 404 page
 
 Not Planned:
-* CSS of any kind
+* SCSS
 * Search
 
 ---
