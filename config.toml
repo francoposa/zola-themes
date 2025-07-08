@@ -2,7 +2,7 @@
 base_url = "https://example.com"
 
 # The site title and description; used in feeds by default.
-title = "Demo"
+title = "Zola Demo Blog"
 description = ""
 
 # The default language; used in feeds.
@@ -224,3 +224,10 @@ index_format = "elasticlunr_javascript"
 # author value will be available using {{ config.extra.author }} in templates
 #
 [extra]
+[extra.menu]
+sections = [
+    { name = "Section A", url = "/section-a", weight = 1 },
+    { name = "Section B", url = "/section-b", weight = 2 },
+    { name = "Section C", url = "/section-c", weight = 3 },
+#    { name = "about", url = "/about", weight = 4 },
+]

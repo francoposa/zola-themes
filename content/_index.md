@@ -1,8 +1,8 @@
 +++
-title = "Zola Demo Blog"
+title = "Home"
 sort_by = "weight"
 +++
-Zola Demo Blog is the root section.
+Home is the root section.
 
 It has three child sections with varying levels of nesting and no direct child pages.
 

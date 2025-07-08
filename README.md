@@ -11,12 +11,13 @@ this theme utilizes only the standard Zola templates:
 index.html, section.html, page.html, taxonomy_list.html, and taxonomy_single.html.
 
 Currently supports or demonstrates:
+* Menu and breadcrumb navigation
 * Content sections and pages with arbitrary nesting
 * Taxonomy list and single-term pages
 * Static CSS stylesheet
 
 To Do:
-* Menu and breadcrumb navigation
+* Nav for taxonomies
 * Pagination support
 * 404 page
 

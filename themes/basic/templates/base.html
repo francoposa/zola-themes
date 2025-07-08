@@ -1,3 +1,5 @@
+{# macro imports must be at the top https://github.com/Keats/tera/issues/902 #}
+{% import "macros/breadcrumbs.html" as breadcrumbs %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +13,12 @@
 </head>
 
 <body>
+    {# uncomment to debug context data #}
+    {# {{ __tera_context }} #}
+
+    {% include "partials/nav.html" %}
+    <hr>
+
     <div>
         {% block content %} {% endblock content %}
     </div>

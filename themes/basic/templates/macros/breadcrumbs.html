@@ -1,0 +1,19 @@
+{% macro breadcrumbs() %}
+<div class="breadcrumbs-inner">
+    {# current is either a section or a page #}
+    {% set current = section | default(value=page) %}
+
+    {# loop through ancestors in descending order from root #}
+    {% for ancestor in current.ancestors %}
+
+    {# skip leading separator; could make this configurable #}
+    {# {% if not loop.first %} #}
+    <span class="breadcrumb-separator"> > </span>  {# TODO make separator configurable #}
+    {# {% endif %} #}
+
+    {% set section = get_section(path=ancestor) %}
+    <a class="breadcrumb-item-title" href="{{ section.permalink }}">{{ section.title }}</a>
+    {% endfor %}
+
+</div>
+{% endmacro %}
